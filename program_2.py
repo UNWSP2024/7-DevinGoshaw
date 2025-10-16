@@ -3,6 +3,10 @@
 # Assume that the list contains numbers.
 # The function shell has been written out on line 30, (def display_larger_than_n_list)
 # and should display all of the numbers in the list that are greater than then number n.
+#programmer: Devin Goshaw
+#date: 10/16/25
+#program: Larger than n program
+
 
 def main():
     # Declare local variables
@@ -29,6 +33,9 @@ def main():
 # in the list that are greater than the number.
 def display_larger_than_n_list(n, n_list):
     # Write your code to display all of the numbers in the list that are greater than then number n. below
+    for value in n_list:
+        if value > n:
+            print(value)
     print('In display_larger_than_n_list')
         
 # Call the main function.
