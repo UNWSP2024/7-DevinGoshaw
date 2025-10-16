@@ -7,6 +7,7 @@
 #date: 10/16/25
 #program: Larger than n program
 
+
 def main():
     # Declare local variables
     number = 5
